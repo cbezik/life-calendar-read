@@ -5,13 +5,15 @@
 <body>
 <h1>life calendar read</h1>
 <p>A personal tool, run by one person on their own computer, that reads their own Google
-Calendar so their daily planning note can show the day's appointments.</p>
+Calendar to find their free time, and puts their own to-dos on a calendar they own as short
+events with a reminder.</p>
 <h2>What it does</h2>
 <ul>
-<li>Once a day, it reads upcoming events from calendars the owner chose, using the read-only
+<li>Twice a day, it reads upcoming events from calendars the owner chose, using the read-only
 Google Calendar permission (<code>calendar.readonly</code>).</li>
-<li>It never creates, changes or deletes calendar events, and asks for no other Google data
-(no mail, no files, no contacts).</li>
+<li>On one calendar the owner owns, it creates, moves and deletes the events it placed there itself
+(<code>calendar.events.owned</code>). It never changes or deletes any other event, and asks for no
+other Google data (no mail, no files, no contacts).</li>
 <li>It is not offered to anyone else. There is no sign-up and no other user.</li>
 </ul>
 <p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a></p>
